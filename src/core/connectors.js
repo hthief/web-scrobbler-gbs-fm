@@ -1996,6 +1996,13 @@ const connectors = [{
 	],
 	js: 'connectors/huskrecordings.js',
 	id: 'huskrecordings',
+},{
+	label: 'gbs FM',
+	matches: [
+		'*://gbs.fm/*',
+	],
+	js: 'connectors/gbs.fm.js',
+	id: 'gbs.fm',
 }];
 
 define(() => connectors);
